@@ -37,9 +37,8 @@ app.on('ready', () => {
     const {
       default: installExtension,
       REACT_DEVELOPER_TOOLS,
-      MOBX_DEVTOOLS,
     } = require('electron-devtools-installer')
-    installExtension([REACT_DEVELOPER_TOOLS, MOBX_DEVTOOLS])
+    installExtension([REACT_DEVELOPER_TOOLS])
       .then((name: any) => console.log(`Added Extension: ${name}`))
       .catch((err: any) => console.log('An error occurred: ', err))
   }
