@@ -1,2 +1,4 @@
 *.pbxproj -text
 * text eol=lf
+android/* linguist-vendored
+ios/* linguist-vendored
