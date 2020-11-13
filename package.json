@@ -20,7 +20,7 @@
     "main:build": "webpack --config ./electron/main/webpack.prod.js"
   },
   "dependencies": {
-    "@babel/runtime": "^7.11.2",
+    "@babel/runtime": "^7.12.5",
     "electron-devtools-installer": "^3.1.1"
   },
   "devDependencies": {
